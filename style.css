@@ -70,7 +70,7 @@ h1 {
     object-fit: cover;
 }
 
-.choice3 {
+/* .choice3 {
     display: none;
 }
 
@@ -80,4 +80,52 @@ h1 {
 
 .choice1 {
     display: none;
+} */
+
+.pannel {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    align-items: center;
+    margin-top: -400px;
+    background-color: rgb(38, 23, 77);
+    height: 50px;
+    color: #fff;
+ }
+
+.board {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    align-items: center;
+    margin-top: -15px;
+    background-color: rgb(38, 23, 77);
+    height: 600px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: -410px;
+}
+
+.score {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#user-score {
+    font-size: 3rem;
+}
+
+#comp-score {
+    font-size: 3rem;
 }
